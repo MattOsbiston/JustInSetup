@@ -1,0 +1,5 @@
+#include "standard_reco2_dunevd10kt_1x8x14_3view_30deg.fcl"
+
+process_name: LowEFullReco
+physics.producers.pandora.ConfigFile: "PandoraSettings_Master_DUNEFD_VD_LowE.xml"
+physics.reco: [ @sequence::dunefd_vertdrift_tpc_reco2 ]

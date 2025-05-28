@@ -1,0 +1,5 @@
+#include "standard_reco2_dune10kt_1x2x6.fcl"
+
+process_name: LowEFullReco
+physics.producers.pandora.ConfigFile: "PandoraSettings_Master_DUNEFD_LowE_FDC.xml"
+physics.reco: [ @sequence::dunefd_horizdrift_pandora ]
